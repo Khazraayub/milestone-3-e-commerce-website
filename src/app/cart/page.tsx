@@ -2,8 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import ProductCard from "../components/ProductCard";
-import { Product } from "@/types/types"; 
+import { Product } from "@/pages/types"; 
 
 const Cart = () => {
   const [products, setProducts] = useState<Product[]>([]);

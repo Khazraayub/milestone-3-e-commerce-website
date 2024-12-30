@@ -9,6 +9,7 @@ import Product1 from './components/Product1'
 
 import ProductCardGrid from './components/ProductCardGrid'
 import Menu from './components/MenuItem'
+import MenuItem from './components/MenuItem'
 
 
 
@@ -22,7 +23,7 @@ export default function App() {
       <Banner/>
       <Product1/>
       
-      <Menu/>
+      <MenuItem/>
 
     </div>
   )

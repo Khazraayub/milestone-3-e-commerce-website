@@ -1,5 +1,6 @@
+"use client"
 import React from 'react'
-import { Product } from '@/types/types'
+import { Product } from '@/pages/types'
 
 interface ProductCarProps extends Product{
     onAddToCart: (product: Product) => void;
