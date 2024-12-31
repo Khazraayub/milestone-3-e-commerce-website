@@ -50,9 +50,12 @@ export default function Navbar() {
                   <NavigationMenuList>
                     <NavigationMenuItem>
                       <NavigationMenuTrigger className="bg-purple-200 hover:bg-pink-400 px-4 py-2 rounded-md text-sm">
-                        <Link href="/">Home</Link>
+                        <Link href="">Home</Link>
                       </NavigationMenuTrigger>
                       <NavigationMenuContent className="bg-pink-600 text-white px-5 flex flex-col gap-2">
+                      <NavigationMenuLink>
+                          <Link href="/" className="text-white hover:text-pink-300">Home</Link>
+                        </NavigationMenuLink>
                         <NavigationMenuLink>
                           <Link href="/aboutus" className="text-white hover:text-pink-300">AboutUs</Link>
                         </NavigationMenuLink>
