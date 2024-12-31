@@ -2,9 +2,12 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { Product } from "@/pages/types"; 
+import  Product  from "@/app/components/types"; 
 
-const Cart = () => {
+import React from 'react'
+
+
+function page() {
   const [products, setProducts] = useState<Product[]>([]);
   const [cart, setCart] = useState<Product[]>([]);
   const [showCart, setShowCart] = useState(false);
@@ -193,4 +196,4 @@ const Cart = () => {
   );
 };
 
-export default Cart;
+export default page;
